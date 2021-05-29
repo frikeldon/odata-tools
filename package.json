@@ -8,13 +8,16 @@
     "url": "https://github.com/frikeldon/odata-tools.git"
   },
   "devDependencies": {
+    "@small-tech/esm-tape-runner": "^1.0.3",
     "eslint": "^7.27.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.23.3",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0"
+    "eslint-plugin-promise": "^5.1.0",
+    "tape": "^5.2.2"
   },
   "scripts": {
-    "lint": "eslint ./**/*.js"
+    "lint": "eslint ./**/*.js",
+    "test": "esm-tape-runner ./test/**/*.js"
   }
 }
