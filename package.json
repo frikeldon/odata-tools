@@ -1,0 +1,10 @@
+{
+  "name": "odata-tools",
+  "version": "0.0.0",
+  "description": "Herramientas y utilitades para comunicación OData.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frikeldon/odata-tools.git"
+  }
+}
