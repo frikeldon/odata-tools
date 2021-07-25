@@ -3,3 +3,5 @@ export { default as OdataBool } from './lib/bool.js'
 export { default as OdataDate } from './lib/date.js'
 export { default as OdataNumber } from './lib/number.js'
 export { default as OdataLookup } from './lib/lookup.js'
+
+export { default as odataFilter } from './lib/filter.js'
