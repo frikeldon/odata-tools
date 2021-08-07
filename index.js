@@ -5,3 +5,6 @@ export { default as OdataNumber } from './lib/number.js'
 export { default as OdataLookup } from './lib/lookup.js'
 
 export { default as odataFilter } from './lib/filter.js'
+
+export { default as Odata } from './lib/odata.js'
+export { default as OdataEntity } from './lib/entity.js'
